@@ -33,3 +33,10 @@ funções de entrada
     codigo = Tabela.loc[linha,"codigo"]
     pyautogui.write(str(codigo))
 
+
+bot auxiliar para posição x,y em pyautogui.click():
+import time
+import pyautogui
+time.sleep(5)
+print(pyautogui.position())
+
